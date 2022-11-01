@@ -56,6 +56,10 @@ app.get("/list", (req, res) => {
   res.sendFile(path.join(__dirname, "/views/list.html"));
 });
 
+app.get("/storefront", (req, res) => {
+  res.sendFile(path.join(__dirname, "/views/storefront.html"));
+});
+
 app.get("/*", (req, res) => {
   res.send("404 - Page Not Found");
 });

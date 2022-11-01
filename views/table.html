@@ -1,0 +1,107 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 8px;
+        }
+
+        th {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+     <div class="main-navbar-container">
+        <span class="nav-brand">Harkirat Kohli</span>
+        <ul class="main-navbar">
+            <li class="nav-item"><a href="/">Home</a></li>
+            <li class="nav-item"><a href="/video">Video</a></li>
+            <li class="nav-item"><a href="/audio">Audio</a></li>
+            <li class="nav-item"><a href="/list">List</a></li>
+            <li class="nav-item"><a href="/storefront">Store</a></li>
+            <li class="nav-item"><a href="/table">Table</a></li>
+        </ul>
+    </div>
+    
+    <section class="page"></section>
+    <h1>HTML Tables</h1>
+    <p>I will be using my knowledge of HTML Tables to demonstrate tables</p>
+    <h2>My Favorite Books</h2>
+    <table>
+        <caption>My Favorite Books</caption>
+        <thead>
+            <tr>
+                <th>Book</th>
+                <th>Author</th>
+                <th>Movies</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mr Bean</td>
+                <td>john birkin</td>
+                <td>comedy book</td>
+            </tr>
+            <tr>
+                <td>fast and furious</td>
+                <td>louis leterrier</td>
+                <td>action book</td>
+            </tr>
+            <tr>
+                <td>anabelle</td>
+                <td>john leonetti</td>
+                <td>Horror book</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>My Favorite Movies</h2>
+    <table>
+        <caption>My Favorite Movies</caption>
+        <thead>
+            <tr>
+                <th>Movie</th>
+                <th>Director</th>
+                <th>Genre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td rowspan="2">conjuring</td>
+                <td>horror</td>
+            </tr>
+            <tr>
+                <td>good will hunting</td>
+
+                <td>serious/thriller</td>
+            </tr>
+            <tr>
+                <td>Interstellor</td>
+                <td>christopher nolan</td>
+                <td>scientific</td>
+            </tr>
+        </tbody>
+        
+    </table>
+</section>
+</body>
+
+</html>

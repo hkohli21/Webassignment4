@@ -1,0 +1,211 @@
+body,
+html {
+  background-image: radial-gradient(
+    circle farthest-corner at 1.4% 2.7%,
+    rgba(239, 249, 249, 1) 0%,
+    rgb(153, 241, 206) 100.2%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  height: 90%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "serif", sans-serif;
+}
+
+.page {
+  width: 90%;
+  height: 100%;
+  padding: 12px;
+}
+
+.main-navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 19px;
+  background-color: transparent;
+  box-shadow: 0 2px 4px 0 rgba(51, 50, 50, 0.1);
+  height: 50px;
+  width: 90%;
+  top: 0;
+  z-index: 1;
+}
+
+.main-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 90%;
+}
+
+.nav-brand {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #222;
+  font-family: "sans-serif", serif;
+}
+
+.nav-item {
+  display: flex;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 300 !important;
+  color: rgb(53, 42, 42);
+  text-decoration: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 11px;
+  height: 100%;
+}
+
+h1 {
+  font-family: "sans-serif", Garamond;
+  font-weight: 302;
+  font-size: 2.6em;
+  color: #000;
+}
+
+h2 {
+  font-family: "sans-serif", Garamond;
+  font-weight: 302;
+  font-size: 2.6em;
+  color: #000;
+}
+
+p {
+  font-weight: 300;
+  font-size: 19px;
+  color: #000;
+  line-height: 1.6em;
+}
+
+.list li {
+  font-weight: 300;
+  list-style: none;
+  position: relative;
+  padding: 3px 0 2px 23px;
+}
+
+.list > li::before {
+  content: "*";
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+.sublist li {
+  list-style-type: upper-roman;
+  position: relative;
+  padding: 3px 0 3px 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #000;
+}
+
+table caption {
+  font-weight: 300;
+  font-size: 19px;
+  color: #000;
+  padding: 10px 0;
+}
+
+thead {
+  background-color: #222;
+  color: #eee;
+}
+
+tbody {
+  background-color: #eee;
+  color: #222;
+}
+
+th,
+td {
+  padding: 9px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+tfoot {
+  background-color: #222;
+  color: #eee;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #222;
+  text-decoration: underline;
+}
+
+.card {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 4px;
+  margin: 1rem 4px;
+  max-width: 312px;
+  max-height: 50rem;
+}
+
+.card-body {
+  position: relative;
+}
+
+.add-btn {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.card-img-top {
+  max-width: 15rem;
+  max-height: 15rem;
+}
+
+.card-title {
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #222;
+  padding: 10px 0;
+}
+
+.card-text {
+  font-weight: 300;
+  font-size: 2em;
+  color: #222;
+  line-height: 1.7em;
+}
